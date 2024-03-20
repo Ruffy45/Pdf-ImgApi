@@ -22,7 +22,7 @@ def ocr(image_folder ):
             # Concatenate the extracted text with previous texts
             concatenated_text += text + '\n\n'
 
-    print("Total text extracted from images:", concatenated_text)
+    return(concatenated_text)
 
     # Save the concatenated text to a single file
     output_text_file = os.path.join(image_folder, 'concatenated_text.txt')
