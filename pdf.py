@@ -27,8 +27,8 @@ def pdf_to_images(pdf_path, output_folder):
             
     return output_paths
 
-pdf_path = 'test.pdf'
-output_folder = 'results'
+# pdf_path = 'test.pdf'
+# output_folder = 'results'
 
-image_paths = pdf_to_images(pdf_path, output_folder)
-print(image_paths)
+# image_paths = pdf_to_images(pdf_path, output_folder)
+# print(image_paths)
