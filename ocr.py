@@ -4,7 +4,7 @@ import os
 
 def ocr(image_folder ):
     # Set the path to the Tesseract OCR executable
-    pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+    pytesseract.pytesseract.tesseract_cmd = r'Tesseract-OCR\tesseract.exe'
     # Set the path to the folder containing the images
     # Initialize an empty string to store concatenated text
     concatenated_text = ''

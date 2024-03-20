@@ -19,15 +19,15 @@ def save_string_to_file(string_data, file_path):
 # Usage
 
 # Example usage
-pdf_file_path = "test.pdf"
-output_directory = "./results"
+# pdf_file_path = "test.pdf"
+# output_directory = "./results"
 
-if not os.path.exists(output_directory):
-    os.makedirs(output_directory)
+# if not os.path.exists(output_directory):
+#     os.makedirs(output_directory)
 
-encoded_pdf_data = convert_pdf_to_base64(pdf_file_path)
-save_string_to_file(encoded_pdf_data, 'output.txt')
-output_file_path = os.path.join(output_directory, "restored_file.pdf")
+# encoded_pdf_data = convert_pdf_to_base64(pdf_file_path)
+# save_string_to_file(encoded_pdf_data, 'output.txt')
+# output_file_path = os.path.join(output_directory, "restored_file.pdf")
 
 # convert_base64_to_pdf(encoded_pdf_data, output_file_path)
 # print("PDF file restored successfully.")
